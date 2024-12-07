@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 img{
   width: 60%;
   align-self: center;
@@ -123,4 +128,24 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.dealership-img{
+    width: 50%;
+    margin:auto;
+    display:block;
+}
+
+.telecaller-img{
+    width: 70%;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.contact-text{
+    text-align: center;
 }
